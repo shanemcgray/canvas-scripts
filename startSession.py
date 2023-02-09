@@ -29,7 +29,7 @@ def Start():
 	# Initialize a new Canvas object
 	canvas = Canvas(API_URL, API_KEY)
 	# Return three things to the script calling startSession:
-	# canvas 		| the canvas object 								| access with startSession.Start()[0]
+	# canvas 	| the canvas object 					| access with startSession.Start()[0]
 	# canvasUrls 	| the dictionary containing available Canvas URLS 	| access with startSession.Start()[1]
 	# envChoice 	| the number declaring which environment to use 	| access with startSession.Start()[2]
 	return canvas, canvasUrls, envChoice
